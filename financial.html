@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap&reg; | Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="./bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap-4.3.1-dist/css/swiper.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/poper.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/swiper.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/test.js"></script>
+    <script type="text/javascript">
+      // <![CDATA[
+      var myMenu;
+      window.onload = function() {
+          myMenu = new SDMenu("my_menu");
+          myMenu.init();
+      };
+      // ]]>
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="border-bottom: 1px solid white; background-color: silver">
+          <a class="navbar-brand" href="#">
+            <h1 style="color:midnightblue; margin-left: 50%;"><b>LT FISCAL</b></h1>
+          </a>
+          <button id="menu-toggle" class="navbar-toggler toggle-on" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto" style="margin-left:20%">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" style="color: rgb(248, 109, 17); font-size:17px;"><b>Home</b><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important;">
+                    <b>About Us</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="corporate.html"><b>Corporate Governance</b></a>
+                        <a class="dropdown-item" href="customer.html"><b>Customer Testimonial</b></a>
+                        <a class="dropdown-item" href="financial.html"><b>Q&A Financial Advice</b></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important">
+                    <b>Solutions</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Planning.html"><b>Financial Planning</b></a>
+                        <a class="dropdown-item" href="#"><b>Taxes Planning</b></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important">
+                    <b>Blog</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><b>Finance Aid</b></a>
+                        <a class="dropdown-item" href="#"><b>Finance Planning</b></a>
+                        <a class="dropdown-item" href="#"><b>Invesment Finacial</b></a>
+                        <a class="dropdown-item" href="#"><b>Saving Strategy</b></a>
+                    </div>
+                </li>
+                <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important">
+                  <b>Portfolio</b>
+                </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important">
+                    <b>WooCommerce</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#"><b>For Women</b></a>
+                      <a class="dropdown-item" href="#"><b>Accessories</b></a>
+                      <a class="dropdown-item" href="#"><b>Bags</b></a>
+                      <a class="dropdown-item" href="#"><b>Shoes & Sandal</b></a>
+                      <a class="dropdown-item" href="#"><b>For Men</b></a>
+                    </div>
+                </li>
+                <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color: #343a40!important">
+                  <b>Contact Us</b>
+                </a>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="sidebar-6">
+            <div class="main-top">
+                <a href="index.html">Home</a>
+                <span style="color:#999999;">>>Q&A Financial Advice</span>
+            </div>
+            <div class="sidebar-6-top" style="margin-bottom: 20px; margin-top: 20px;">
+              <h3 class="h3"><b>Q&A Financial Advice</b></h3>
+            </div>
+            <div class="table">
+                <div style="float: left" id="my_menu" class="sdmenu">
+                    <div> 
+                        <span>Which Plan Is Right For Me?</span> 
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                    </div>
+                    <div> 
+                        <span>Do I have to commit to a contract?</span>
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                    </div>
+                    <div> 
+                        <span>What Payment Methods Are Available?</span> 
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a> 
+                    </div>
+                    <div> 
+                        <span>What if I pick the wrong plan?</span> 
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                    </div>
+                    <div> 
+                      <span>Any contracts or commitments?</span> 
+                      <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                  </div>
+                  <div> 
+                      <span>What are my payment options?</span>
+                      <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                  </div>
+                  <div> 
+                      <span>How does the free trial work?</span> 
+                      <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a> 
+                  </div>
+                  <div> 
+                      <span>Can I pay for 12 months in advance?</span> 
+                      <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                  </div>
+                  <div> 
+                        <span>If I have questions, where can I find answers?</span> 
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                    </div>
+                    <div> 
+                        <span>What happens to my data if I cancel?</span>
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a>
+                    </div>
+                    <div> 
+                        <span>Why should I subscribe newsletter?</span> 
+                        <a></a><p class="spmenu">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="lookWrap">
+          <div id="look">
+            <div class="section">
+              <h3>Corporate Info & Media</h3>
+              <p style="color:#a0aec6;line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur auctor elit</p>
+              <ul>
+                  <li class="fa fa-phone">
+                    <img src="./icon/baseline_call_white_18dp.png">
+                    <a href="#">+ 1 800 878 18 80</a>
+                  </li>
+                  <li class="fa fa-phone">
+                    <img src="./icon/baseline_call_white_18dp.png">
+                    <a href="#">+ 1 800 878 18 80</a>
+                  </li>
+                  <li class="fa fa-phone">
+                    <img src="./icon/baseline_call_white_18dp.png">
+                    <a href="#">+ 1 800 878 18 80</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h3>Working hours</h3>
+              <ul style="color:#a0aec6;line-height: 33px;" class="working">
+                <li>Monday: 8am - 7lim</li>
+                <li>Tuesday: 8am- 7lim</li>
+                <li>Wednesday: 8am - 7lim</li>
+                <li>Thursday: 8am - 7lim</li>
+                <li>Friday: 8am - 7lim</li>
+                <li>Sat-Sun: Off</li>
+                </ul>
+            </div>
+            <div class="section">
+              <h3>Advice Center</h3>
+              <a href="#">Work Life</a>
+              <a href="#">Family Life</a>        
+              <a href="#">Military Life</a>
+              <a href="#">Your Retirement</a>
+              <a href="#">Personal Finances</a>
+              <a href="#">Disaster and Recovery</a>
+            </div>
+            <div class="section">
+              <h3>Photos</h3>
+              <div id="gallery-1" class="gallery galleryid-2 gallery-columns-3 gallery-size-thumbnail"><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/feauter-services1.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/feauter-services2.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/feauter-services.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/testimonial2.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/testimonial1.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure><figure class="gallery-item">
+                  <div class="gallery-icon landscape">
+                    <a href="#"><img width="75" height="75" src="./images/testimonial.jpg" sizes="(max-width: 150px) 85vw, 150px"></a>
+                  </div></figure>
+                </div>      
+            </div>      
+          </div>
+        </div>
+        <div class="legality">
+          <div class="footer-span">
+              <span style="color:#999999;"><a href="#" style="color: white;">Free Wordpress themes</a> by <a href="#" style="color: white;">L.THEME</a></span>
+          </div>
+        </div>
+      </div>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/test.js"></script>
+</body>
+</html>
